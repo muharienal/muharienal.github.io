@@ -111,7 +111,7 @@ const _slideEmpat = function () {
       slideEmpat.remove()
       setTimeout(() => {
         _slideLima();
-      }, 1000);
+      }, 500);
     }, 1000);
   })
 };
@@ -123,7 +123,7 @@ const _slideLima = function () {
 
   setTimeout(() => {
     trims.classList.remove('d-none');
-  }, 1000);
+  }, 2000);
 
   slideLima.addEventListener('animationend', () => {
     slideLima.classList.add('animate__delay-3s')
