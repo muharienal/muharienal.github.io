@@ -112,7 +112,7 @@ const _slideEmpat = function () {
       setTimeout(() => {
         _slideLima();
       }, 500);
-    }, 1000);
+    }, 2000);
   })
 };
 
@@ -146,14 +146,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Moi❤️", " ", "Kamu pasti tau tepat di tanggal 23 Juli 2021 ada apa hayo :p", " ", "<b>Happy anniversary Moi buat kita berdua yang ke - 1 tahun yaa</b>", " ", "Aplikasi web ini aku coding diem-diem buat anniversary kita, pasti kamu gatau kapan aku bikinnya yaa :p", , " ", "Di aplikasi ini juga tentunya ada sejuta harapan untuk hubungan kita :)", " ", "Baca terus baik-baik yaa sayang pesanku untuk hubungan kita😊"],
+  strings: ["Assalamualaikum Moi❤️", " ", "Kamu pasti tau tepat di tanggal 23 Juli 2021 ada apa hayo :p", " ", "<b>Happy anniversary Moi buat kita berdua yang ke - 1 tahun yaa</b>", " ", "Web ini aku coding diem-diem buat anniversary kita, pasti kamu gatau kapan aku bikinnya yaa :p", , " ", "Juga tentunya ada sejuta harapan untuk hubungan kita :)", " ", "Baca terus baik-baik yaa sayang pesanku untuk hubungan kita😊"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Aloo Bunda Mamoi, Gemoi, Anak Kecil atau Emak-Emak?!!", "Apapun panggilannya tetap kesayangan Renal😄", " ", "Moi sayang selamat yaa kamu bisa sampai di titik satu tahun ini sama Renal, banyak cerita yang udah kita lalui bersama, mulai dari bahagia atau sedih.", "Maaf yaa Moi aku gabisa kasih surprise yang romantis atau gimana :( Cuma ini yang bisa aku kasih ke kamu, Renal harap Moi suka yaa :)", "Harapan Renal, semoga hubungan kita selalu diberi berkah, dilancarkan dan tetep langgeng yaa Moi, apapun yang terjadi tetep kita jalani berdua, tetep jadi Moi yang sayang Renal dan juga Renal begitu ke Moi.", "Semoga kita juga bisa menggapai sukses bareng-bareng yaa sayang, terus saling support dan menemani.", "Meski kadang Renal buat kesel Moi, terima kasih sudah mencintai apa adanya dan mengerti sepenuhnya. Semoga segala harapan kita dikabulkan yaa Moi, Aamin. Tentunya bismillah yang terbaik buat kita kedepannya yaa.", " ", "- Papoi kesayangan Mamoi❤️"],
+  strings: ["Aloo Bunda Mamoi, Gemoi, Anak Kecil atau Emak-Emak?!!", "Apapun panggilannya tetap kesayangan Renal😄", " ", "Moi sayang selamat yaa kamu bisa sampai di titik satu tahun ini sama Renal, banyak cerita yang udah kita lalui bersama, mulai dari bahagia atau sedih.", "Maaf yaa Moi aku gabisa kasih surprise yang romantis atau gimana :( Renal harap Moi suka yaa :)", "Semoga hubungan kita selalu diberi berkah, dilancarkan dan tetep langgeng yaa Moi, apapun yang terjadi tetep kita jalani berdua, tetep jadi Moi yang sayang Renal dan juga Renal ke Moi.", "Semoga kita juga bisa menggapai sukses bareng-bareng yaa sayang.", "Meski kadang Renal buat kesel Moi, terima kasih sudah mencintai apa adanya dan mengerti sepenuhnya. Semoga segala harapan kita dikabulkan yaa Moi, Aamin. Tentunya bismillah yang terbaik buat kita kedepannya yaa.", " ", "- Papoi kesayangan Mamoi❤️"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
