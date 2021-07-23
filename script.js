@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Aug 23, 2020 00:00:00').getTime(),
+let countDown = new Date('July 23, 2021 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -63,7 +63,7 @@ const _slideDua = function () {
         _slideTiga();
       }, 1000);
     })
-  }, 40000);
+  }, 45000);
 };
 
 const _slideTiga = function () {
@@ -82,7 +82,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 43000);
+  }, 53000);
 }
 
 function getRandomPosition(element) {
@@ -146,14 +146,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Adam Mukti Wibisono pada hari ini Minggu, 23 Agustus 2020 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 21</b>", " ", "Kepada Irna Imroatun, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- Adam Mukti, Mas ganteng :)"],
+  strings: ["Assalamualaikum Moi❤️", " ", "Kamu pasti tau tepat di tanggal 23 Juli 2021 ada apa hayo :p", " ", "<b>Happy anniversary Moi buat kita berdua yang ke - 1 tahun yaa</b>", " ", "Aplikasi web ini aku coding diem-diem buat anniversary kita, pasti kamu gatau kapan aku bikinnya yaa :p", , " ", "Di aplikasi ini juga tentunya ada sejuta harapan untuk hubungan kita :)", " ", "Baca terus baik-baik yaa sayang pesanku untuk hubungan kita😊"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Haii cabi!!", "Happy Birthday ya..", " ", "Ciie udah 21 tahun, padahal baru aja beberapa hari kemarin umur kita sama hehe, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
+  strings: ["Aloo Bunda Mamoi, Gemoi, Anak Kecil atau Emak-Emak?!!", "Apapun panggilannya tetap kesayangan Renal😄", " ", "Moi sayang selamat yaa kamu bisa sampai di titik satu tahun ini sama Renal, banyak cerita yang udah kita lalui bersama, mulai dari bahagia atau sedih.", "Maaf yaa Moi aku gabisa kasih surprise yang romantis atau gimana :( Cuma ini yang bisa aku kasih ke kamu, Renal harap Moi suka yaa :)", "Harapan Renal, semoga hubungan kita selalu diberi berkah, dilancarkan dan tetep langgeng yaa Moi, apapun yang terjadi tetep kita jalani berdua, tetep jadi Moi yang sayang Renal dan juga Renal begitu ke Moi.", "Semoga kita juga bisa menggapai sukses bareng-bareng yaa sayang, terus saling support dan menemani.", "Meski kadang Renal buat kesel Moi, terima kasih sudah mencintai apa adanya dan mengerti sepenuhnya. Semoga segala harapan kita dikabulkan yaa Moi, Aamin. Tentunya bismillah yang terbaik buat kita kedepannya yaa.", " ", "- Papoi kesayangan Mamoi❤️"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -161,9 +161,9 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Terimakasih."],
+  strings: ["Maaciw banyak, love you Moii❤️."],
   startDelay: 2000,
-  speed: 150,
+  speed: 75,
   loop: false,
   waitUntilVisible: true,
 }).go();
