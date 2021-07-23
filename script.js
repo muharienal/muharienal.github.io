@@ -111,8 +111,8 @@ const _slideEmpat = function () {
       slideEmpat.remove()
       setTimeout(() => {
         _slideLima();
-      }, 500);
-    }, 2000);
+      }, 1000);
+    }, 1000);
   })
 };
 
@@ -153,7 +153,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Aloo Bunda Mamoi, Gemoi, Anak Kecil atau Emak-Emak?!!", "Apapun panggilannya tetap kesayangan Renal😄", " ", "Moi sayang selamat yaa kamu bisa sampai di titik satu tahun ini sama Renal, banyak cerita yang udah kita lalui bersama, mulai dari bahagia atau sedih.", "Maaf yaa Moi aku gabisa kasih surprise yang romantis atau gimana :( Renal harap Moi suka yaa :)", "Semoga hubungan kita selalu diberi berkah, dilancarkan dan tetep langgeng yaa Moi, apapun yang terjadi tetep kita jalani berdua, tetep jadi Moi yang sayang Renal dan juga Renal ke Moi.", "Semoga kita juga bisa menggapai sukses bareng-bareng yaa sayang.", "Meski kadang Renal buat kesel Moi, terima kasih sudah mencintai apa adanya dan mengerti sepenuhnya. Semoga segala harapan kita dikabulkan yaa Moi, Aamin. Tentunya bismillah yang terbaik buat kita kedepannya yaa.", " ", "- Papoi kesayangan Mamoi❤️"],
+  strings: ["Aloo Bunda Mamoi, Gemoi, Anak Kecil atau Emak-Emak?!!", "Apapun panggilannya tetap kesayangan Renal😄", " ", "Moi sayang selamat yaa kamu bisa sampai di titik satu tahun ini sama Renal, banyak cerita yang udah kita lalui bersama, mulai dari bahagia atau sedih.", "Maaf yaa Moi aku gabisa kasih surprise yang romantis atau gimana :( Renal harap Moi suka yaa :)", "Semoga hubungan kita selalu diberi berkah, dilancarkan dan tetep langgeng yaa Moi, apapun yang terjadi tetep kita jalani berdua, tetep jadi Moi yang sayang Renal dan juga Renal ke Moi."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
