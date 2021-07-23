@@ -111,7 +111,7 @@ const _slideEmpat = function () {
       slideEmpat.remove()
       setTimeout(() => {
         _slideLima();
-      }, 500);
+      }, 2500);
     }, 1000);
   })
 };
@@ -123,7 +123,7 @@ const _slideLima = function () {
 
   setTimeout(() => {
     trims.classList.remove('d-none');
-  }, 2000);
+  }, 1000);
 
   slideLima.addEventListener('animationend', () => {
     slideLima.classList.add('animate__delay-3s')
@@ -146,7 +146,7 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Moi❤️", " ", "Kamu pasti tau tepat di tanggal 23 Juli 2021 ada apa hayo :p", " ", "<b>Happy anniversary Moi buat kita berdua yang ke - 1 tahun yaa</b>", " ", "Web ini aku coding diem-diem buat anniversary kita, pasti kamu gatau kapan aku bikinnya yaa :p", , " ", "Juga tentunya ada sejuta harapan untuk hubungan kita :)", " ", "Baca terus baik-baik yaa sayang pesanku untuk hubungan kita😊"],
+  strings: ["Assalamualaikum Moi❤️", " ", "Kamu pasti tau tepat di tanggal 23 Juli 2021 ada apa hayo :p", " ", "<b>Happy Anniversary Moi buat kita berdua yang ke - 1 tahun yaa</b>", " ", "Web ini aku coding diem-diem buat anniversary kita, pasti kamu gatau kapan aku bikinnya yaa :p", , " ", "Juga tentunya ada sejuta harapan untuk hubungan kita :)", " ", "Baca terus baik-baik yaa sayang pesanku untuk hubungan kita😊"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
