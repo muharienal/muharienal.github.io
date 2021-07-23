@@ -63,7 +63,7 @@ const _slideDua = function () {
         _slideTiga();
       }, 1000);
     })
-  }, 40000);
+  }, 35000);
 };
 
 const _slideTiga = function () {
@@ -82,7 +82,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 60000);
+  }, 65000);
 }
 
 function getRandomPosition(element) {
@@ -111,8 +111,8 @@ const _slideEmpat = function () {
       slideEmpat.remove()
       setTimeout(() => {
         _slideLima();
-      }, 3500);
-    }, 1000);
+      }, 500);
+    }, 3000);
   })
 };
 
